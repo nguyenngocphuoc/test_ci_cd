@@ -26,5 +26,4 @@ jobs:
         with:
           persist-credentials: false
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - run: npm i
-      - run: npm start
+      - run: docker-compose up
